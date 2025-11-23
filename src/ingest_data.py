@@ -50,7 +50,6 @@ class ZipDataIngestion(DataIntegester):
             else:
                 raise ValueError(f"No ingestor available for this file extension: {file_extension}")
 
-
     if __name__ == "__main__":
         # specify the file path 
         # file_path = ""
