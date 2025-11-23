@@ -32,14 +32,12 @@ class ZipDataIngestion(DataIntegester):
     if len(csv_files) > 1:
         raise ValueError("Multiple CSV files found. Please specify which one to use")
 
-
     # Read the CSV into a DataFrame 
     csv_file_path = os.path.join("extracted_data". csv_files(0))
     gf = pd.read_csv(csv_file_path)
 
     # Return the DataFrame 
     return df
-
 
     class DataIntegsterFactor: 
         @staticmethod
