@@ -51,4 +51,4 @@ class ZipDataIngestion(DataIntegester):
     if __name__ == "__main__":
         # specify the file path 
         # file_path = ""
-        pass
+        pass 
